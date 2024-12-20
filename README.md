@@ -11,7 +11,7 @@ The program will :
 
 ## Project structure 
 - "*project report*" contains the report of our project 
-- "*Internal data*" contains files used for passing information between C, Python and Matlab. They are automatically edited by the program and should not be manually modified. 
+- "*Internal data*" contains files used for passing information between C, Python and Matlab. They are automatically edited by the program and should not be manually modified. Moreover, since the files are too large, we currently have no way to send them to you (either via Moodle or by email).
 - "*codes*" contains program code. 
 - "*results*" contains saved .png files of graphs
 
@@ -21,8 +21,8 @@ Inputs:
 - There aren't any, since no external files are introduced.
 
 Internal files: 
-- "*Internal data/altitudes_région_cotière_100.csv*" is a csv file.
-- "*Internal data/wave_height_xy_alt100_10-30.txt*" is a text file 
+- "*Internal data/altitudes_région_cotière.csv*" is a csv file.
+- "*Internal data/wave_height_xy.txt*" is a text file 
 
 Outputs:
 - "*Results*" contains sevaral image files with a visualization of the wave ("*wave_height*"), the terrain ("*altitudes_terrain*"), and the classification of infrastructures ("*classification infrastructures*")
