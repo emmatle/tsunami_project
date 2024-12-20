@@ -73,11 +73,11 @@ To rerpoduce results in the report, steps should be followed :
     ./wave
     ```
 the code should return you 5 text files :
-- "*wave_height_xy_alt100_5-10.tkt*"
-- "*wave_height_xy_alt100_10-30.tkt*"
-- "*wave_height_xy_alt100_30-40.tkt*"
-- "*wave_height_xy_alt100_40-70.tkt*"
-- "*wave_height_xy_alt50_10-30.tkt*"
+- "*wave_height_xy_alt100_5-10.txt*"
+- "*wave_height_xy_alt100_10-30.txt*"
+- "*wave_height_xy_alt100_30-40.txt*"
+- "*wave_height_xy_alt100_40-70.txt*"
+- "*wave_height_xy_alt50_10-30.txt*"
 
 3.1 Open the "*comparaison.m*"
 3.2 right version of matlab ? 
@@ -105,6 +105,3 @@ Version: 1.20.1
 
 ```
 
-
-
-## Credits => pas besoin de crédits puisqu'on a utilisé aucun fichier extérieur ...
