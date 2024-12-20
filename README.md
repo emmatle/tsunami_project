@@ -52,8 +52,8 @@ Outputs:
 
 ## Instructions 
 To rerpoduce results in the report, steps should be followed :
-1.1. Open the "*altitudes.py*" 
-1.2. Verify if your Python version and interpreter mentionned in the requirement 
+1. Open the "*altitudes.py*" 
+2. Verify if your Python version and interpreter mentionned in the requirement 
 1.3. Run the python code it should produce a csv files : 
 - "*altitudes_région_cotière.csv*"
 
