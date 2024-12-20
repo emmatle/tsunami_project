@@ -24,11 +24,10 @@ Internal files:
 - "*Internal data/altitudes_région_cotière_100.csv*" is a csv file.
 - "*Internal data/altitudes_région_cotière_50.csv*" is a csv file
 - "*Internal data/wave_height_xy_alt100_5-10.txt*" is a text file.
-- "*Internal data/wave_height_xy_alt100_5-10.tkt*"
-- "*Internal data/wave_height_xy_alt100_10-30.tkt*"
-- "*Internal data/wave_height_xy_alt100_30-40.tkt*"
-- "*Internal data/wave_height_xy_alt100_40-70.tkt*"
-- "*Internal data/wave_height_xy_alt50_10-30.tkt*"
+- "*Internal data/wave_height_xy_alt100_10-30.tkt*" is a text file 
+- "*Internal data/wave_height_xy_alt100_30-40.tkt*" is a text file 
+- "*Internal data/wave_height_xy_alt100_40-70.tkt*" is a text file 
+- "*Internal data/wave_height_xy_alt50_10-30.tkt*" is a text file 
 
 Outputs:
 - "*Results*" contains sevaral image files, (...) parce qu'on leur a toujours pas donner de nom 
