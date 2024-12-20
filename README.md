@@ -61,8 +61,8 @@ To rerpoduce results in the report, steps should be followed :
 1.1 Open the "*altitudes.py*" 
 1.2 Navigate to the makefile to ensure the Python interpreter selected is yours.
 1.3 Run the python code it should produce two csv files : 
-    --> "*altitudes_région_cotière_100.csv*"  
-    --> "*altitudes_région_cotière_50.csv*"
+- "*altitudes_région_cotière_100.csv*"
+- "*altitudes_région_cotière_50.csv*"
 
 2.1 Open the "*wave.c*"
 2.2 Navigate to the makefile to ensure the gcc version selected is yours.
@@ -73,16 +73,37 @@ To rerpoduce results in the report, steps should be followed :
     ./wave
     ```
 the code should return you 5 text files :
-    --> "*wave_height_xy_alt100_5-10.tkt*"
-    --> "*wave_height_xy_alt100_10-30.tkt*"
-    --> "*wave_height_xy_alt100_30-40.tkt*"
-    --> "*wave_height_xy_alt100_40-70.tkt*"
+- "*wave_height_xy_alt100_5-10.tkt*"
+- "*wave_height_xy_alt100_10-30.tkt*"
+- "*wave_height_xy_alt100_30-40.tkt*"
+- "*wave_height_xy_alt100_40-70.tkt*"
+- "*wave_height_xy_alt50_10-30.tkt*"
+
+3.1 Open the "*comparaison.m*"
+3.2 right version of matlab ? 
+3.3 You can run the file it should produce 8 plots which are our results commented in the Project Report :
+-je te laisse mettre les noms des images que tu mets dans le fichier resultats 
+
+
 
 
 ## Requirements 
+
 Versions of Python and C used are as follows.
-````
-????
+```
+$ python --version
+Python 3.8.8
+
+$ gcc --version
+Apple clang version 14.0.3
+```
+The Python libraries utilized were the following:
+```
+$ pip show numpy
+Name: numpy
+Version: 1.20.1
+
+```
 
 
 
