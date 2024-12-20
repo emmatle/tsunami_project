@@ -53,12 +53,12 @@ Outputs:
 ## Instructions 
 To rerpoduce results in the report, steps should be followed :
 1.1 Open the "*altitudes.py*" 
-1.2 Navigate to the makefile to ensure the Python interpreter selected is yours.
+1.2 Verify if your Python version and interpreter mentionned in the requirement 
 1.3 Run the python code it should produce a csv files : 
 - "*altitudes_région_cotière.csv*"
 
 2.1 Open the "*wave.c*"
-2.2 Navigate to the makefile to ensure the gcc version selected is yours.
+2.2 Ensure the gcc version is the one mentionned in the requirement 
 2.3 You can run the file and type :
     ```
     gcc -Wall wave.c -o wave -lm
@@ -70,7 +70,7 @@ the code should return you a text files :
 - "*wave_height_xy.txt*"
 
 3.1 Open the "*comparaison.m*"
-3.2 right version of matlab ? 
+3.2 Use the matlab version mentionned in the requirement
 3.3 You can run the file it should produce 3 plots which are our results commented in the Project Report :
 - A modeling of our coastal terrain
 - A modeling of our wave
@@ -79,10 +79,15 @@ the code should return you a text files :
 
 ## Requirements 
 
+Version of Matlab : R2024b
+
+Python interpreter : /opt/anaconda3/bin/python
+
 Versions of Python and C used are as follows.
 ```
 $ python --version
 Python 3.8.8
+
 
 $ gcc --version
 Apple clang version 14.0.3
