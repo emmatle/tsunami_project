@@ -10,7 +10,7 @@ The program will :
 3. Retrieves the two text files ("*altitudes_région_cotière.csv*" and "*wave_height_xy*") to model infrastructures of different sizes on the terrain, then compares the terrain's altitudes with the wave's height, classifies the infrastructures into different categories, and outputs a 3D graph of this classification ("*comparaison.m*")
 
 ## Project structure 
-je pense que cette partie correspond aux dossiers que l'on fera sur GitHup => donc à remplir après mais je vais faire une supposition
+- "*project report*" contains the report of our project 
 - "*Internal data*" contains files used for passing information between C, Python and Matlab. They are automatically edited by the program and should not be manually modified. 
 - "*codes*" contains program code. 
 - "*results*" contains saved .png files of graphs
@@ -22,15 +22,10 @@ Inputs:
 
 Internal files: 
 - "*Internal data/altitudes_région_cotière_100.csv*" is a csv file.
-- "*Internal data/altitudes_région_cotière_50.csv*" is a csv file
-- "*Internal data/wave_height_xy_alt100_5-10.txt*" is a text file.
 - "*Internal data/wave_height_xy_alt100_10-30.txt*" is a text file 
-- "*Internal data/wave_height_xy_alt100_30-40.txt*" is a text file 
-- "*Internal data/wave_height_xy_alt100_40-70.txt*" is a text file 
-- "*Internal data/wave_height_xy_alt50_10-30.txt*" is a text file 
 
 Outputs:
-- "*Results*" contains sevaral image files, (...) parce qu'on leur a toujours pas donner de nom 
+- "*Results*" contains sevaral image files
 
 **Overview :**
 - Python generates and send values to C through a text file. 
@@ -41,13 +36,13 @@ Outputs:
 **Structure**: In the directory "*Code/*" are located:
 - "*altitude.py*"
     - Model a coastal terrain.
-    - Writes all the values of our modeling in the form of a text file "*Internal data/altitudes_régions_cotières.csv*".
+    - Writes all the values of our modeling in the form of a text file "*Internal data/altitudes_région_cotière.csv*".
 - "*code.c*"
-    - Reads in the text file of the terrain located in "*Internal data/altitudes_régions_cotières.csv*".
+    - Reads in the text file of the terrain located in "*Internal data/altitudes_région_cotière.csv*".
     - Model the tsunami wave.
     - Exports results into the CSV "*Internal data/wave_height_xy*".
 - "*comparaison.m*"
-    - Reads in the CSV "*Internal data/altitudes_régions_cotières.csv*" and "*Internal data/wave_height_xy*"
+    - Reads in the CSV "*Internal data/altitudes_région_cotière.csv*" and "*Internal data/wave_height_xy*"
     - Model the flooding of the terrain and infrastructures 
     - Plots results in a separate window 
     - You can find the results on "*Results*"
@@ -59,9 +54,8 @@ Outputs:
 To rerpoduce results in the report, steps should be followed :
 1.1 Open the "*altitudes.py*" 
 1.2 Navigate to the makefile to ensure the Python interpreter selected is yours.
-1.3 Run the python code it should produce two csv files : 
-- "*altitudes_région_cotière_100.csv*"
-- "*altitudes_région_cotière_50.csv*"
+1.3 Run the python code it should produce a csv files : 
+- "*altitudes_région_cotière.csv*"
 
 2.1 Open the "*wave.c*"
 2.2 Navigate to the makefile to ensure the gcc version selected is yours.
@@ -72,19 +66,15 @@ To rerpoduce results in the report, steps should be followed :
     ```
     ./wave
     ```
-the code should return you 5 text files :
-- "*wave_height_xy_alt100_5-10.txt*"
-- "*wave_height_xy_alt100_10-30.txt*"
-- "*wave_height_xy_alt100_30-40.txt*"
-- "*wave_height_xy_alt100_40-70.txt*"
-- "*wave_height_xy_alt50_10-30.txt*"
+the code should return you a text files :
+- "*wave_height_xy.txt*"
 
 3.1 Open the "*comparaison.m*"
 3.2 right version of matlab ? 
-3.3 You can run the file it should produce 8 plots which are our results commented in the Project Report :
--je te laisse mettre les noms des images que tu mets dans le fichier resultats 
-
-
+3.3 You can run the file it should produce 3 plots which are our results commented in the Project Report :
+- A modeling of our coastal terrain
+- A modeling of our wave
+- A modeling of the classification of infrastructures
 
 
 ## Requirements 
