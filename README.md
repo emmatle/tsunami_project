@@ -34,7 +34,7 @@ Outputs:
 - Matlab also handles the outpu and visualisation.
 
 **Structure**: In the directory "*Code/*" are located:
-- "*tsunami.py*"
+- "*altitude.py*"
     - Model a coastal terrain.
     - Writes all the values of our modeling in the form of a text file "*Internal data/altitudes_régions_cotières.csv*".
 - "*code.c*"
