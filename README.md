@@ -73,7 +73,7 @@ To rerpoduce results in the report, steps should be followed :
     ```
     ./wave
     ```
-#the code should return you 5 text files :
+the code should return you 5 text files :
 - "*wave_height_xy_alt100_5-10.tkt*"
 - "*wave_height_xy_alt100_10-30.tkt*"
 - "*wave_height_xy_alt100_30-40.tkt*"
