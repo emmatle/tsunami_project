@@ -25,7 +25,7 @@ Internal files:
 - "*Internal data/wave_height_xy_alt100_10-30.txt*" is a text file 
 
 Outputs:
-- "*Results*" contains sevaral image files
+- "*Results*" contains sevaral image files with a visualization of the wave ("*wave_height*"), the terrain ("*altitudes_terrain*"), and the classification of infrastructures ("*classification infrastructures*")
 
 **Overview :**
 - Python generates and send values to C through a text file. 
