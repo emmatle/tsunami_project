@@ -54,12 +54,12 @@ Outputs:
 To rerpoduce results in the report, steps should be followed :
 1. Open the "*altitudes.py*" 
 2. Verify if your Python version and interpreter mentionned in the requirement 
-1.3. Run the python code it should produce a csv files : 
+3. Run the python code it should produce a csv files : 
 - "*altitudes_région_cotière.csv*"
 
-2.1. Open the "*wave.c*"
-2.2. Ensure the gcc version is the one mentionned in the requirement 
-2.3. You can run the file and type :
+4. Open the "*wave.c*"
+5. Ensure the gcc version is the one mentionned in the requirement 
+6. You can run the file and type :
     ```
     gcc -Wall wave.c -o wave -lm
     ```
@@ -69,9 +69,9 @@ To rerpoduce results in the report, steps should be followed :
 the code should return you a text files :
 - "*wave_height_xy.txt*"
 
-3.1. Open the "*comparaison.m*"
-3.2. Use the matlab version mentionned in the requirement
-3.3. You can run the file it should produce 3 plots which are our results commented in the Project Report :
+7. Open the "*comparaison.m*"
+8. Use the matlab version mentionned in the requirement
+9. You can run the file it should produce 3 plots which are our results commented in the Project Report :
 - A modeling of our coastal terrain
 - A modeling of our wave
 - A modeling of the classification of infrastructures
