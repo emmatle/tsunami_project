@@ -21,8 +21,14 @@ Inputs:
 - There aren't any, since no external files are introduced.
 
 Internal files: 
-- "*Internal data/altitudes_région_cotière.csv*" is a csv file.
-- "*Internal data/wave_height_xy.txt*" is a text file.
+- "*Internal data/altitudes_région_cotière_100.csv*" is a csv file.
+- "*Internal data/altitudes_région_cotière_50.csv*" is a csv file
+- "*Internal data/wave_height_xy_alt100_5-10.txt*" is a text file.
+- "*Internal data/wave_height_xy_alt100_5-10.tkt*"
+- "*Internal data/wave_height_xy_alt100_10-30.tkt*"
+- "*Internal data/wave_height_xy_alt100_30-40.tkt*"
+- "*Internal data/wave_height_xy_alt100_40-70.tkt*"
+- "*Internal data/wave_height_xy_alt50_10-30.tkt*"
 
 Outputs:
 - "*Results*" contains sevaral image files, (...) parce qu'on leur a toujours pas donner de nom 
@@ -51,7 +57,27 @@ Outputs:
 
 
 ## Instructions 
-To rerpoduce results in the report, 
+To rerpoduce results in the report, steps should be followed :
+1.1 Open the "*altitudes.py*" 
+1.2 Navigate to the makefile to ensure the Python interpreter selected is yours.
+1.3 Run the python code it should produce two csv files : 
+    --> "*altitudes_région_cotière_100.csv*"  
+    --> "*altitudes_région_cotière_50.csv*"
+
+2.1 Open the "*wave.c*"
+2.2 Navigate to the makefile to ensure the gcc version selected is yours.
+2.3 You can run the file and type :
+    ```
+    gcc -Wall wave.c -o wave -lm
+    ```
+    ./wave
+    ```
+the code should return you 5 text files :
+    --> "*wave_height_xy_alt100_5-10.tkt*"
+    --> "*wave_height_xy_alt100_10-30.tkt*"
+    --> "*wave_height_xy_alt100_30-40.tkt*"
+    --> "*wave_height_xy_alt100_40-70.tkt*"
+
 
 ## Requirements 
 Versions of Python and C used are as follows.
